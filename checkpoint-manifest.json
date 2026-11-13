@@ -1,0 +1,259 @@
+{
+  "repository": "Ecipsed/jianghuai",
+  "release_tag": "checkpoints-20261113",
+  "date": "2026-11-13",
+  "split_size_bytes": 1900000000,
+  "format": "Concatenated .tar.part-NNN files form one standard uncompressed tar archive",
+  "methods": {
+    "osd": {
+      "parts": [
+        {
+          "name": "osd-checkpoints-20261113.tar.part-001",
+          "bytes": 1900000000,
+          "sha256": "6c02568119c96aab846112420548b1d452666a5a9307b0f617bd5fa84e995702"
+        },
+        {
+          "name": "osd-checkpoints-20261113.tar.part-002",
+          "bytes": 1900000000,
+          "sha256": "86c49f347ccfce7c9c59c458ee59194d256d6501e6dec1b4f9477eb3e5e038ed"
+        },
+        {
+          "name": "osd-checkpoints-20261113.tar.part-003",
+          "bytes": 1615997440,
+          "sha256": "0322e5b691244ccba2630c932a1f8d752d421bc28b544e8e91faf7243aa7357a"
+        }
+      ],
+      "checksum_file": "osd-checkpoints-20261113.sha256",
+      "archive_bytes": 5415997440,
+      "archive_sha256": "dcb3cfbaa4a733dc0ea287a798fd80c1e6c822dfadd4a528d129707a6cfa9326",
+      "members": [
+        {
+          "path": "continual-pretrain/osd/checkpoint/MANIFEST.json",
+          "bytes": 4291,
+          "sha256": "4eb033e3be09699c236392f1b3963a740a63ba0ef851ee7387c01f91bb4c6463"
+        },
+        {
+          "path": "continual-pretrain/osd/checkpoint/README.md",
+          "bytes": 545,
+          "sha256": "f254a41d8491a946acee03d04a4d9c02e1e34b35be9c9cfebec131759a379ac9"
+        },
+        {
+          "path": "continual-pretrain/osd/checkpoint/llama-1b/model_after_task_7/config.json",
+          "bytes": 926,
+          "sha256": "b0379bd11a6c3f10716a6903872987ab83f6e1f87181f7cc34fdcdfbe6a6cab8"
+        },
+        {
+          "path": "continual-pretrain/osd/checkpoint/llama-1b/model_after_task_7/generation_config.json",
+          "bytes": 155,
+          "sha256": "e9c4962e35be332cdccf3d610bd56697f4884184680438d0149e7f4f8f9d08ce"
+        },
+        {
+          "path": "continual-pretrain/osd/checkpoint/llama-1b/model_after_task_7/model.safetensors",
+          "bytes": 4943274328,
+          "sha256": "cda7605652b7296f6e1955310b48d2337bdb4f873da3eafe08c9605733dc7361"
+        },
+        {
+          "path": "continual-pretrain/osd/checkpoint/llama-1b/model_after_task_7/sft_protocol.json",
+          "bytes": 219,
+          "sha256": "f71970b73dd357993ee8041c47c3b09ed47cf080d6f6425c78ad86a17dc9aa06"
+        },
+        {
+          "path": "continual-pretrain/osd/checkpoint/llama-1b/model_after_task_7/special_tokens_map.json",
+          "bytes": 296,
+          "sha256": "6f38c73729248f6c127296386e3cdde96e254636cc58b4169d3fd32328d9a8ec"
+        },
+        {
+          "path": "continual-pretrain/osd/checkpoint/llama-1b/model_after_task_7/tokenizer.json",
+          "bytes": 17209920,
+          "sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b"
+        },
+        {
+          "path": "continual-pretrain/osd/checkpoint/llama-1b/model_after_task_7/tokenizer_config.json",
+          "bytes": 54528,
+          "sha256": "9823dcfdc1121869029da45192238e85cf44f0b232a6d9dc20e4fe6f4242a14e"
+        },
+        {
+          "path": "continual-pretrain/osd/checkpoint/llama-1b/provenance.json",
+          "bytes": 663,
+          "sha256": "df36979854d7412d1d9c98d521c4216dfc4e5f09ea1d67587d728ab8ad3b89bf"
+        },
+        {
+          "path": "continual-pretrain/osd/checkpoint/vit-b-32/heads/head_CarsVal.pt",
+          "bytes": 403259,
+          "sha256": "17928d2211ca126d90761bc7411fa69ffe933515804b27eef5753e0358758701"
+        },
+        {
+          "path": "continual-pretrain/osd/checkpoint/vit-b-32/heads/head_DTDVal.pt",
+          "bytes": 97463,
+          "sha256": "2371472a160b2fc2670929a92187d72798ec15941905ab08d5fae9e179bf54d3"
+        },
+        {
+          "path": "continual-pretrain/osd/checkpoint/vit-b-32/heads/head_EuroSATVal.pt",
+          "bytes": 21575,
+          "sha256": "1721fc64468bfdf2d3a1061461e92cde598761c6650c3e2f5953443d2808e8ea"
+        },
+        {
+          "path": "continual-pretrain/osd/checkpoint/vit-b-32/heads/head_GTSRBVal.pt",
+          "bytes": 89279,
+          "sha256": "abeccfccd829d504e0eb4de09191ae2b0c7a37bbc11ab97e4d1bd332e66d9407"
+        },
+        {
+          "path": "continual-pretrain/osd/checkpoint/vit-b-32/heads/head_MNISTVal.pt",
+          "bytes": 21567,
+          "sha256": "d6976e86a0aa2b02a8e2819a923fd8cf2feb41de5683a885c1cb25e1c94a6ed8"
+        },
+        {
+          "path": "continual-pretrain/osd/checkpoint/vit-b-32/heads/head_RESISC45Val.pt",
+          "bytes": 93387,
+          "sha256": "ef38281604c11eb9c76fdab4635c46abc1d8ece0fed58765a81cb4bd1c348993"
+        },
+        {
+          "path": "continual-pretrain/osd/checkpoint/vit-b-32/heads/head_SUN397Val.pt",
+          "bytes": 815683,
+          "sha256": "258c9725e5a382af68092471a880566fc20daa1abf6b17d496584b3f68818dc4"
+        },
+        {
+          "path": "continual-pretrain/osd/checkpoint/vit-b-32/heads/head_SVHNVal.pt",
+          "bytes": 21563,
+          "sha256": "62bf4b8ee05faa7c4d9210d7114b1ec5d2582dbf91f3586cf2c4021884e60ccd"
+        },
+        {
+          "path": "continual-pretrain/osd/checkpoint/vit-b-32/model_final.pt",
+          "bytes": 453862917,
+          "sha256": "53adc6838abe9c3aa628f1bce5f45d082324df3e966bcac65fcb9587428e0540"
+        },
+        {
+          "path": "continual-pretrain/osd/checkpoint/vit-b-32/provenance.json",
+          "bytes": 616,
+          "sha256": "6e880f356cbc898ce2945a3fdc41d7b413e73e30b908ccb39e2392411ea4cfd9"
+        }
+      ],
+      "validation": "All archive payloads reconstructed from parts and SHA-256 verified"
+    },
+    "saim": {
+      "parts": [
+        {
+          "name": "saim-checkpoints-20261113.tar.part-001",
+          "bytes": 1900000000,
+          "sha256": "2a2071613e6b3200507262c5b065b8fcbdf1d83cbac46a8c0e99f592854a9e4f"
+        },
+        {
+          "name": "saim-checkpoints-20261113.tar.part-002",
+          "bytes": 1900000000,
+          "sha256": "3d8748bb4fd66d70bfae1254308f7e3e22be51f75cf4c5fbcf2f1be7a4dae7b8"
+        },
+        {
+          "name": "saim-checkpoints-20261113.tar.part-003",
+          "bytes": 1615997440,
+          "sha256": "488aa71b934699f0534587e83e9105761b330bd7c7470c553c47b5c0f8a34810"
+        }
+      ],
+      "checksum_file": "saim-checkpoints-20261113.sha256",
+      "archive_bytes": 5415997440,
+      "archive_sha256": "0c9be5e272a04c32068860ef40c5985f9d4840c8727be0140117c8b6615d93d9",
+      "members": [
+        {
+          "path": "continual-pretrain/saim/checkpoint/MANIFEST.json",
+          "bytes": 4166,
+          "sha256": "f93c623d0a347dde2b180d5eb44cb7c021fdfb1b5972c4556f04470716a8105d"
+        },
+        {
+          "path": "continual-pretrain/saim/checkpoint/README.md",
+          "bytes": 546,
+          "sha256": "32dd479adcbf2ac24e2d1c05dccda1dfc8976590ddb786e15fe94b6daafb0e64"
+        },
+        {
+          "path": "continual-pretrain/saim/checkpoint/llama-1b/model_after_task_7/config.json",
+          "bytes": 926,
+          "sha256": "b0379bd11a6c3f10716a6903872987ab83f6e1f87181f7cc34fdcdfbe6a6cab8"
+        },
+        {
+          "path": "continual-pretrain/saim/checkpoint/llama-1b/model_after_task_7/generation_config.json",
+          "bytes": 184,
+          "sha256": "b7d29f5808456adf0aff049bd10a465f8d3098a5e073a803a950007cda12bf22"
+        },
+        {
+          "path": "continual-pretrain/saim/checkpoint/llama-1b/model_after_task_7/model.safetensors",
+          "bytes": 4943274328,
+          "sha256": "1337f7c2dc12097465c68f341766320e454c71d8247bcab0253b43aa9265e50a"
+        },
+        {
+          "path": "continual-pretrain/saim/checkpoint/llama-1b/model_after_task_7/sft_protocol.json",
+          "bytes": 219,
+          "sha256": "f71970b73dd357993ee8041c47c3b09ed47cf080d6f6425c78ad86a17dc9aa06"
+        },
+        {
+          "path": "continual-pretrain/saim/checkpoint/llama-1b/model_after_task_7/special_tokens_map.json",
+          "bytes": 296,
+          "sha256": "6f38c73729248f6c127296386e3cdde96e254636cc58b4169d3fd32328d9a8ec"
+        },
+        {
+          "path": "continual-pretrain/saim/checkpoint/llama-1b/model_after_task_7/tokenizer.json",
+          "bytes": 17209920,
+          "sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b"
+        },
+        {
+          "path": "continual-pretrain/saim/checkpoint/llama-1b/model_after_task_7/tokenizer_config.json",
+          "bytes": 54528,
+          "sha256": "9823dcfdc1121869029da45192238e85cf44f0b232a6d9dc20e4fe6f4242a14e"
+        },
+        {
+          "path": "continual-pretrain/saim/checkpoint/llama-1b/provenance.json",
+          "bytes": 650,
+          "sha256": "32d3439e6a0fd8e0220c63d568e1665e10692df12a34ba846389cd200340ab8e"
+        },
+        {
+          "path": "continual-pretrain/saim/checkpoint/vit-b-32/heads/head_CarsVal.pt",
+          "bytes": 403259,
+          "sha256": "17928d2211ca126d90761bc7411fa69ffe933515804b27eef5753e0358758701"
+        },
+        {
+          "path": "continual-pretrain/saim/checkpoint/vit-b-32/heads/head_DTDVal.pt",
+          "bytes": 97463,
+          "sha256": "2371472a160b2fc2670929a92187d72798ec15941905ab08d5fae9e179bf54d3"
+        },
+        {
+          "path": "continual-pretrain/saim/checkpoint/vit-b-32/heads/head_EuroSATVal.pt",
+          "bytes": 21575,
+          "sha256": "1721fc64468bfdf2d3a1061461e92cde598761c6650c3e2f5953443d2808e8ea"
+        },
+        {
+          "path": "continual-pretrain/saim/checkpoint/vit-b-32/heads/head_GTSRBVal.pt",
+          "bytes": 89279,
+          "sha256": "abeccfccd829d504e0eb4de09191ae2b0c7a37bbc11ab97e4d1bd332e66d9407"
+        },
+        {
+          "path": "continual-pretrain/saim/checkpoint/vit-b-32/heads/head_MNISTVal.pt",
+          "bytes": 21567,
+          "sha256": "d6976e86a0aa2b02a8e2819a923fd8cf2feb41de5683a885c1cb25e1c94a6ed8"
+        },
+        {
+          "path": "continual-pretrain/saim/checkpoint/vit-b-32/heads/head_RESISC45Val.pt",
+          "bytes": 93387,
+          "sha256": "ef38281604c11eb9c76fdab4635c46abc1d8ece0fed58765a81cb4bd1c348993"
+        },
+        {
+          "path": "continual-pretrain/saim/checkpoint/vit-b-32/heads/head_SUN397Val.pt",
+          "bytes": 815683,
+          "sha256": "258c9725e5a382af68092471a880566fc20daa1abf6b17d496584b3f68818dc4"
+        },
+        {
+          "path": "continual-pretrain/saim/checkpoint/vit-b-32/heads/head_SVHNVal.pt",
+          "bytes": 21563,
+          "sha256": "62bf4b8ee05faa7c4d9210d7114b1ec5d2582dbf91f3586cf2c4021884e60ccd"
+        },
+        {
+          "path": "continual-pretrain/saim/checkpoint/vit-b-32/model_final.pt",
+          "bytes": 453861093,
+          "sha256": "aa4d2b0b00c65d7e677bb7621dbd96e0e845ff45e6309b249ff627efd6ea700c"
+        },
+        {
+          "path": "continual-pretrain/saim/checkpoint/vit-b-32/provenance.json",
+          "bytes": 622,
+          "sha256": "8f05d6950560438a51d59af6a352e9248613310649babd3c08d2e81e67a8cecf"
+        }
+      ],
+      "validation": "All archive payloads reconstructed from parts and SHA-256 verified"
+    }
+  }
+}
